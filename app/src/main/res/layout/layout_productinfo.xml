@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Product ID:"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtProductId"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/product_id"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Product Name"
+                android:textStyle="bold|italic"
+                />
+
+            <EditText
+                android:id="@+id/txtProductName"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:hint="@string/ProductName"
+                android:textStyle="bold|italic"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Product Description:"
+                android:textStyle="bold|italic"
+                />
+
+            <EditText
+                android:id="@+id/txtProductDis"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:hint="@string/productDescription"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Product Price:"
+                android:textStyle="bold|italic"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/txtProductPrice"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:hint="@string/productPrice"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:text="ProductList Price:"
+                android:textStyle="bold|italic"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/txtProductListPrice"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:hint="@string/productListPrice"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:text="ProductRetail Price:"
+                android:textStyle="bold|italic"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/txtProductRetailPrice"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:hint="@string/productRetailPrice"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Category:"
+                android:textStyle="bold|italic"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/txtCategory"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:hint="@string/category"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Date Created:"
+                android:textStyle="bold|italic"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/txtDateCreated"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:hint="@string/dateCreated"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:text="DateUpdated:"
+                android:textStyle="bold|italic"
+                />
+
+            <EditText
+                android:id="@+id/txtdateUpdated"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif-black"
+                android:hint="@string/dateUpdated"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name" translatable="false">KJ Local Shopping App</string>
+    <string name="welcome_message">Welcome TO KJ Local Shopping</string>
+    <string name="product_id">Product ID</string>
+    <string name="log_in">Log in</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="ProductName">Product Name</string>
+    <string name="dateUpdated">Date Updated</string>
+    <string name="dateCreated">Date Created</string>
+    <string name="productDescription">product Description</string>
+    <string name="category">Category</string>
+    <string name="productPrice">product Price</string>
+    <string name="productRetailPrice">productRetailPrice</string>
+    <string name="productListPrice">productListPrice</string>
+    <string name="AddToDB">Click to Add to Database</string>
+
+    <string name="id">ID</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="fullname">Fullname</string>
+    <string name="email">Email</string>
+    <string name="dateRegistered">Date Registered</string>
+    <string name="dateReviewed">Date Reviewed</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="address">Address</string>
+    <string name="postcode">Postcode</string>
+    <string name="rank">Rank</string>
+    <string name="AddUserToDB">Click to Add to Database</string>
+
+
+    <string name="Products">Products</string>
+    <string name="Categories">Categories</string>
+    <string name="LogOut">Log Out</string>
+
+    <string name="Basket">Basket</string>
+</resources>
